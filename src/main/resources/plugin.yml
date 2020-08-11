@@ -12,3 +12,6 @@ commands:
     permission: customdeathmessage.command
     permission-message: "You do not have the permission to use the command."
     usage: The command is invalid or you don't have the permission to use it.
+permissions:
+  customdeathmessage.reload:
+    default: op
