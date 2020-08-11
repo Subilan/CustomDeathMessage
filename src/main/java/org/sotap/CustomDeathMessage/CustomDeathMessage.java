@@ -11,6 +11,7 @@ public class CustomDeathMessage extends JavaPlugin {
         saveDefaultConfig();
         Files.init(this);
         LogUtil.init(this);
+        new DeathEvents(this);
         LogUtil.success("插件已&a启用&r。");
     }
 
