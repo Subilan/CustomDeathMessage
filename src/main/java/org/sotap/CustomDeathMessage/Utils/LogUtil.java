@@ -11,7 +11,7 @@ public final class LogUtil {
     public final static String WARN = "&r[&e警告&r] ";
     public final static String FAILED = "&r[&c失败&r] ";
     public final static String INFO = "&r[&b提示&r] ";
-    public static String DEATH = "&b[&c💀&b]&r ";
+    public static String DEATH = "&b[&c☠&b]&r ";
     public static Logger origin;
 
     public static String translateColor(String message) {
