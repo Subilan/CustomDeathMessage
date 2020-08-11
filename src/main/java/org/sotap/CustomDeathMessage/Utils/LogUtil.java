@@ -1,7 +1,7 @@
 package org.sotap.CustomDeathMessage.Utils;
 
 import java.util.logging.Logger;
-
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.sotap.CustomDeathMessage.CustomDeathMessage;
@@ -11,7 +11,7 @@ public final class LogUtil {
     public final static String WARN = "&r[&e警告&r] ";
     public final static String FAILED = "&r[&c失败&r] ";
     public final static String INFO = "&r[&b提示&r] ";
-    public static String DEATH = "&b[&c💀&b]&r";
+    public static String DEATH = "&b[&c💀&b]&r ";
     public static Logger origin;
 
     public static String translateColor(String message) {
@@ -51,7 +51,7 @@ public final class LogUtil {
     }
 
     public static void death(String message) {
-        origin.info(translateColor(DEATH + message));
+        Bukkit.broadcastMessage(translateColor(DEATH + message));
     }
 
     public static void init(CustomDeathMessage plugin) {
