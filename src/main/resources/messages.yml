@@ -1,50 +1,109 @@
-Death_By:
-  Creatures:
-    Skeleton: "&b%player% just took an arrow to the knee by a skeleton"
-    Zombie: "&bClearly %player% has not watched enough zombie movies..."
-    Enderman: "&bLooking enderman in the eyes is always bad, right %player%?"
-    Iron_Golem: "&bIron Golems always will protect you from people like %player%"
-    Bee: "&b%player% decided to try and get some honey, it didn't work..."
-    Spider: "&b%player% just tried to become the next spiderman"
-    Cave_Spider: "&b%player% went into spiderman's cave and never came out..."
-    Pufferfish: "&b%player% just learnt not to touch puffer fish"
-    Witch: "%player% got killed by the wicked witch of the west"
-    Piglin: "If you are going to attack piglin %player%, expect an army..."
-    Zombified_Piglin: "If you are going to attack zombie piglin %player%, expect an army..."
-    Blaze: "&bFloating creatures of fire, why mess with them, %player%?"
-    Ghast: "&b%player% just tried to play dodgeball with a ghast and lost"
-    Wither: "&bMaybe don't take on the wither alone %player%"
-    Wither_Skeleton: "&b%player%, these skeletons aren't to be messed with..."
-    Slime: "&bBig blobs of slime, %player% has just been slimmed"
-    Vex: "&b%player% just tried to mess with a vex and lost..."
-    Ender_Dragon: "&b%player% died trying to steal the dragons egg..."
-    Phantom: "&b%player% didn't keep an eye out for the annoying phantoms"
-    Creeper: "&c%player% didn't hear the hiss, and went boom"
-    Endermite: "&cLike silverfish, endermites are just as annoying, right %player%?"
-    Guardian: "&b%player% got caught trespassing on a guardians land. They paid the ultimate price."
-    Ender_Guardian: "&b%player%, just tried trespassing and found themselves at the mercy of an elder guardian"
-    Evoker: "&c%player% needs to leave the evil evokers alone from now on"
-    Hoglin: "%player%, tried to get some hoglin bacon, it didn't work..."
-    Husk: "&cHusks are mean, and strong. Right %player%?"
-    Magma_Cube: "&bMagma Slimes, hot and slimy. %player% has been magma slimmed"
-    Polar_Bear: "&cBest to leave the polar bears alone from now on %player%"
-    Ravager: "&cThe name alone, should've told you not to mess with ravagers, %player%"
-    Shulker: "&cNice try, better luck next time. Shulkers don't die that easily."
-    SilverFish: "&bSilverFish, are a pest. Keep an eye out next time %player%"
-    Pillager: "&c%player%, just tried to pillage a pillager, it didn't go to plan..."
-    Stray: "&cStay away from the stray, %player%"
-    Strider: "&bBetter to take longer strides to keep away from striders. hey, %player%"
-    Vindicator: "&b%player%, just got vindicated by the vindicator"
-    Zoglin: "Like piglin and hoglin, Best to leave these guys alone."
-  Environmental:
-    Unknown_Death: "&c%player%&b, just went poof and was dead... No one knows how..."
-    Drowning: "&c%player%&b, If you're going to go swimming, remember to breath..."
-    Lightning: "&bI see thor is not happy with %player%..."
-    Fire: "&bAs &c%player% &bjust found out. Fire is very hot..."
-    Suffocation: "&bDon't try breathing through blocks, it doesn't work. Am I right &c%player%?"
-    Falling: "&bTip: don't try jumping off tall places, or you'll end up like &c%player%"
-    Lava: "&c%player% &bjust tried swimming in lava, it didn't go so well..."
-    Void: "&bThere is a reason people stay out of the void %player%..."
-    Posion: "&bPosion.. What a way to go %player%..."
-    Magic: "&bAvada Kedavra! Just like that %player% is now dead."
-    Block_Explosion: "&cBlock go boom, %player% go boom"
+killed_by:
+  SKELETON: "%playername% 被骷髅射手射死了。"
+  BEE: "%playername% 被蜜蜂蛰死了。"
+  BLAZE: "%playername% 被烈焰人烧死了。"
+  CAVE_SPIDER: "%playername% 被洞穴蜘蛛咬死了。"
+  CREEPER: "%playername% 被苦力怕炸死了。"
+  DROWNED: "%playername% 被溺尸拖入水中。"
+  ELDER_GURADIAN: "%playername% 被远古守卫者吸干了。"
+  ENDER_CRYSTAL: "%playername% 被末影水晶炸死了。"
+  ENDER_DRAGON: "%playername% 被末影龙杀死了。"
+  ENDERMAN: "%playername% 被末影人用眼神杀死了。"
+  ENDERMITE: "%playername% 惨遭末影螨毒手。"
+  EVOKER: "%playername% 被唤魔者杀死了。"
+  GHAST: "%playername% 被恶魂炸死了。"
+  GIANT: "%playername% 被巨人杀死了。哪里有巨人？！"
+  GUARDIAN: "%playername% 被守卫者吸干了。"
+  HOGLIN: "%playername% 被疣猪兽撞死了。"
+  HUSK: "%playername% 被尸壳弄死了。"
+  ILLUSIONER: "%playername% 被幻术师拖入了幻境。"
+  ILLUSIONER_ARROW: "%playername% 被幻术师用箭射死了。"
+  IRON_GOLEM: "%playername% 被铁傀儡揍死了。"
+  MAGMA_CUBE: "%playername% 被岩浆怪烫死了。"
+  PHANTOM: "%playername% 被幻翼虐杀。"
+  PIGLIN: "%playername% 被猪灵干掉了。"
+  PIGLIN_ARROW: "%playername% 被猪灵用箭射死了。"
+  PILLAGER: "%playername% 被掠夺者杀掉了。"
+  PLAYER: "我的天，到底是为什么。%playername% 被 %anotherplayer% 杀死了。"
+  POLAR_BEAR: "%playername% 被北极熊干死了。"
+  RAVAGER: "%playername% 被掠夺者杀死了。"
+  SHULKER: "%playername% 被潜影贝弹死了。"
+  SILVERFISH: "%playername% 被蠹虫杀了。"
+  SLIME: "%playername% 被史莱姆吸入了。"
+  SPIDER: "%playername% 被蜘蛛杀死了。"
+  SPLASH_POTION: "%playername% 被丢死了。"
+  STRAY: "%playername% 被流浪者射死了。"
+  TRADER_LLAMA: "%playername% 被商人的羊驼给杀了。这究竟是为什么呢？"
+  TRIDENT: "%playername% 被三叉戟戳死了。"
+  VEX: "%playername% 被恼鬼烦死了。"
+  VINDICATOR: "%playername% 被卫道士弄死了。"
+  VINDICATOR_ARROW: "%playername% 被卫道士射死了。"
+  WITHER_SKULL: "%playername% 被凋零炸死了。"
+  WOLF: "%playername% 被恶狼咬死了。"
+  WITCH: "%playername% 被女巫毒死了。"
+  ZOGLIN: "%playername% 被僵尸疣猪兽撞死了。"
+  ZOMBIE: "%playername% 被僵尸杀死了。"
+  ZOMBIE_VILLAGER: "%playername% 被僵尸村民杀死了。"
+  ZOMBIFIED_PIGLIN: "%playername% 被僵尸猪灵杀死了。"
+  
+reason:
+  # 被挤死
+  CRAMMING: "%playername% 被挤爆了。"
+  # 被方块炸死，比如 TNT
+  BLOCK_EXPLOSION: "%playername% 爆炸了。"
+  # 和别的方块接触而死，其实不一定是仙人掌
+  CONTACT: "%playername% 被仙人掌扎死了。"
+  # 在龙息中呆太久
+  DRAGON_BREATH: "%playername% 被龙息烧死了。"
+  # 淹死
+  DROWNING: "%playername% 氧气不足而溺亡。"
+  # 被实体杀死，优先级最低
+  ENTITY_ATTACK: "%playername% 被 %entityname% 杀死了。"
+  # 被实体炸死，比如苦力怕
+  ENTITY_EXPLOSION: "%playername% 被 %entityname% 炸死了。"
+  # 被横扫之刃顺带着杀死
+  ENTITY_SWEEP_ATTACK: "%playername% 被 %entityname% 扫死了。"
+  # 从高处掉下来摔死
+  FALL: "%playername% 摔死了。"
+  # 被类似于铁砧的东西砸死
+  FALLING_BLOCK: "%playername% 被 %blockname% 砸死了。"
+  # 玩家在火势内被烧死
+  FIRE: "%playername% 欲火焚身。"
+  # 玩家在火势外被烧死
+  FIRE_TICK: "%playername% 被烧死了。"
+  # 鞘翅撞墙之类的
+  FLY_INTO_WALL: "%playername% 撞墙而死。"
+  # 在岩浆块上呆太久
+  HOT_FLOOR: "%playername% 被烫死了。"
+  # 玩家只有在岩浆中死才可触发，否则将触发 FIRE_TICK
+  LAVA: "%playername% 在岩浆中送走了自己。"
+  # 不解释
+  LIGHTING: "%playername% 被劈死了。"
+  # 使用魔法杀死
+  MAGIC: "%playername% 被魔法杀死了。"
+  # 被药水或蜘蛛毒死，优先级比有毒生物高
+  POISON: "%playername% 被毒死了。"
+  # 弹射的箭
+  PROJECTILE_ARROW: "%playername% 被弹射出的箭射死了。"
+  # 雪球
+  PROJECTILE_SNOWBALL: "%playername% 居然被雪球打死了。"
+  # 未知弹射物
+  PROJECTILE: "%playername% 被弹出来的什么什么玩意弄死了。"
+  # 饱食度为 0
+  STARVATION: "%playername% 饿死了。"
+  # 卡进墙内
+  SUFFOCATION: "%playername% 窒息了。"
+  # 执行 /kill 或者 /suicide
+  SUICIDE: "%playername% 想不开自杀了。"
+  # 荆棘附魔致死
+  THORNS: "%playername% 被荆棘杀死。"
+  # 掉虚空致死
+  VOID: "%playername% 掉进了虚空。他是怎么到那里的？"
+  # 凋零效果致死
+  WITHER: "%playername% 凋零了。"
+  # 特殊的游戏设定所导致的死亡，优先级最高
+  SPECIAL_SETTINGS: "%playername% 被游戏作者害死了。"
+  # 被烟花炸死，优先级最高
+  FIREWORK: "%playername% 被烟花炸死了。烟花爆竹安全从你我做起！"
+  # 被生物攻击后挤压，相当于触发 ENTITY_ATTACK 和 CRAMMING，即被生物砸死，优先级最高
+  HIT_BY_ENTITY: "%playername% 被 %entityname% 砸死了。"
