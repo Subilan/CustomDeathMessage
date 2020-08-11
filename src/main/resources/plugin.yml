@@ -1,5 +1,5 @@
 name: CustomDeathMessage
-main: org.sotap.MissionTap.CustomDeathMessage
+main: org.sotap.CustomDeathMessage.CustomDeathMessage
 version: "1.0"
 author: sotapmc
 api-version: "1.16"
