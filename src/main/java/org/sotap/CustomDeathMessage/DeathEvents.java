@@ -6,6 +6,7 @@ import org.bukkit.block.data.type.Bed;
 import org.bukkit.entity.Arrow;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Illusioner;
+import org.bukkit.entity.LlamaSpit;
 import org.bukkit.entity.Piglin;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.ShulkerBullet;
@@ -57,6 +58,8 @@ public final class DeathEvents implements Listener {
                 }
             } else if (damager instanceof ShulkerBullet) {
                 key = "SHULKER";
+            } else if (damager instanceof LlamaSpit) {
+                key = "LLAMA";
             } else if (damager instanceof Player) {
                 key = "PLAYER";
                 Player damagerPlayer = (Player) damager;
