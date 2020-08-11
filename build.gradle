@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+}
+
+group 'org.sotap'
+version '1.0-SNAPSHOT'
+ext.minecraftVersion = '1.16.1'
+ext.papiVersion = '2.10.7'
+
+sourceCompatibility = 11
+
+repositories {
+    jcenter()
+    maven { name 'Spigot';      url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+    maven { name 'Sonatype';    url 'https://oss.sonatype.org/content/groups/public' }
+    maven { url 'https://repo.extendedclip.com/content/repositories/placeholderapi/' }
+}
+
+dependencies {
+    compileOnly "org.spigotmc:spigot-api:$minecraftVersion-R0.1-SNAPSHOT"
+    compileOnly "me.clip:placeholderapi:$papiVersion"
+    testImplementation 'junit:junit:4.13'
+    testImplementation 'com.google.code.findbugs:jsr305:3.0.2'
+    implementation 'org.jetbrains:annotations:16.0.2'
+    // https://mvnrepository.com/artifact/javax.validation/validation-api
+    implementation group: 'javax.validation', name: 'validation-api', version: '1.0.0.GA'
+}
+
+sourceSets {
+    main {
+        resources {
+            srcDirs "src/main/java/resources"
+        }
+    }
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}

@@ -1,0 +1,14 @@
+name: CustomDeathMessage
+main: org.sotap.MissionTap.CustomDeathMessage
+version: "1.0"
+author: sotapmc
+api-version: "1.16"
+api: []
+
+commands:
+  customdeathmessage:
+    aliases: ["cdm"]
+    description: The main command of CustomDeathMessage.
+    permission: customdeathmessage.command
+    permission-message: "You do not have the permission to use the command."
+    usage: The command is invalid or you don't have the permission to use it.
