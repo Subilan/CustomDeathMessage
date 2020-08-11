@@ -1,5 +1,5 @@
 killed_by:
-  SKELETON: "%playername% 被骷髅射手射死了。"
+  ARROW: "%playername% 被射死了。"
   BEE: "%playername% 被蜜蜂蛰死了。"
   BLAZE: "%playername% 被烈焰人烧死了。"
   CAVE_SPIDER: "%playername% 被洞穴蜘蛛咬死了。"
@@ -29,7 +29,9 @@ killed_by:
   RAVAGER: "%playername% 被掠夺者杀死了。"
   SHULKER: "%playername% 被潜影贝弹死了。"
   SILVERFISH: "%playername% 被蠹虫杀了。"
+  SKELETON: "%playername% 被骷髅射手射死了。"
   SLIME: "%playername% 被史莱姆吸入了。"
+  SNOWBALL: "%playername% 居然被雪球打死了。"
   SPIDER: "%playername% 被蜘蛛杀死了。"
   SPLASH_POTION: "%playername% 被丢死了。"
   STRAY: "%playername% 被流浪者射死了。"
@@ -83,10 +85,6 @@ reason:
   MAGIC: "%playername% 被魔法杀死了。"
   # 被药水或蜘蛛毒死，优先级比有毒生物高
   POISON: "%playername% 被毒死了。"
-  # 弹射的箭
-  PROJECTILE_ARROW: "%playername% 被弹射出的箭射死了。"
-  # 雪球
-  PROJECTILE_SNOWBALL: "%playername% 居然被雪球打死了。"
   # 未知弹射物
   PROJECTILE: "%playername% 被弹出来的什么什么玩意弄死了。"
   # 饱食度为 0
