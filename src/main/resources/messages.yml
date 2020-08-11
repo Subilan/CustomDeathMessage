@@ -1,4 +1,4 @@
-killed_by:
+killed-by:
   ARROW: "%playername% 被射死了。"
   BEE: "%playername% 被蜜蜂蛰死了。"
   BLAZE: "%playername% 被烈焰人烧死了。"
@@ -26,6 +26,7 @@ killed_by:
   PILLAGER: "%playername% 被掠夺者杀掉了。"
   PLAYER: "我的天，到底是为什么。%playername% 被 %anotherplayer% 杀死了。"
   POLAR_BEAR: "%playername% 被北极熊干死了。"
+  PRIMED_TNT: "%playername% 被 TNT 炸死了。"
   RAVAGER: "%playername% 被掠夺者杀死了。"
   SHULKER: "%playername% 被潜影贝弹死了。"
   SILVERFISH: "%playername% 被蠹虫杀了。"
