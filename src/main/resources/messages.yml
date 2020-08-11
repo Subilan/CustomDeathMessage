@@ -19,6 +19,7 @@ killed-by:
   ILLUSIONER: "%playername% 被幻术师拖入了幻境。"
   ILLUSIONER_ARROW: "%playername% 被幻术师用箭射死了。"
   IRON_GOLEM: "%playername% 被铁傀儡揍死了。"
+  LLAMA: "%playername% 被羊驼的口水喷死了。"
   MAGMA_CUBE: "%playername% 被岩浆怪烫死了。"
   PHANTOM: "%playername% 被幻翼虐杀。"
   PIGLIN: "%playername% 被猪灵干掉了。"
@@ -60,12 +61,6 @@ reason:
   DRAGON_BREATH: "%playername% 被龙息烧死了。"
   # 淹死
   DROWNING: "%playername% 氧气不足而溺亡。"
-  # 被实体杀死，优先级最低
-  ENTITY_ATTACK: "%playername% 被 %entityname% 杀死了。"
-  # 被实体炸死，比如苦力怕
-  ENTITY_EXPLOSION: "%playername% 被 %entityname% 炸死了。"
-  # 被横扫之刃顺带着杀死
-  ENTITY_SWEEP_ATTACK: "%playername% 被 %entityname% 扫死了。"
   # 从高处掉下来摔死
   FALL: "%playername% 摔死了。"
   # 被类似于铁砧的东西砸死
@@ -104,5 +99,5 @@ reason:
   SPECIAL_SETTINGS: "%playername% 被游戏作者害死了。"
   # 被烟花炸死，优先级最高
   FIREWORK: "%playername% 被烟花炸死了。烟花爆竹安全从你我做起！"
-  # 被生物攻击后挤压，相当于触发 ENTITY_ATTACK 和 CRAMMING，即被生物砸死，优先级最高
-  HIT_BY_ENTITY: "%playername% 被 %entityname% 砸死了。"
+  # 被生物攻击后挤压，相当于触发 ENTITY_ATTACK 和 CRAMMING，即被生物砸死，优先级最高，未实现
+  # HIT_BY_ENTITY: "%playername% 被 %entityname% 砸死了。"
