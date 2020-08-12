@@ -38,6 +38,7 @@ public final class DeathEvents implements Listener {
         String entityName = "";
         if (lastdamageCause instanceof EntityDamageByEntityEvent) {
             String key;
+            String cate = "killed-by";
             EntityDamageByEntityEvent byEntity = (EntityDamageByEntityEvent) lastdamageCause;
             Entity damager = byEntity.getDamager();
             if (damager instanceof Arrow) {
@@ -67,17 +68,19 @@ public final class DeathEvents implements Listener {
             } else {
                 key = damager.getType().toString().toUpperCase();
             }
-            custom = Files.messages.getString("killed-by." + key);
+            custom = Files.messages.getString(cate + "." + key);
         } else if (lastdamageCause instanceof EntityDamageByBlockEvent) {
             String key;
+            String cate = "killed-by";
             EntityDamageByBlockEvent byBlock = (EntityDamageByBlockEvent) lastdamageCause;
             Block damager = byBlock.getDamager();
             if (damager instanceof Bed) {
+                cate = "special";
                 key = "SPECIAL_SETTINGS";
             } else {
                 key = lastdamageCause.getCause().toString();
             }
-            custom = Files.messages.getString("killed-by." + key);
+            custom = Files.messages.getString(cate + "." + key);
         } else {
             custom = Files.messages.getString("reason." + lastdamageCause.getCause().toString());
         }
