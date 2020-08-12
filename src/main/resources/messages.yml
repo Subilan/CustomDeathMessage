@@ -11,6 +11,7 @@ killed-by:
   ENDERMAN: "%playername% 被末影人用眼神杀死了。"
   ENDERMITE: "%playername% 惨遭末影螨毒手。"
   EVOKER: "%playername% 被唤魔者杀死了。"
+  FIREWORK: "%playername% 被烟花炸死了。烟花爆竹安全从你我做起！"
   GHAST: "%playername% 被恶魂炸死了。"
   GIANT: "%playername% 被巨人杀死了。哪里有巨人？！"
   GUARDIAN: "%playername% 被守卫者吸干了。"
@@ -97,7 +98,5 @@ reason:
   WITHER: "%playername% 凋零了。"
   # 特殊的游戏设定所导致的死亡，优先级最高
   SPECIAL_SETTINGS: "%playername% 被游戏作者害死了。"
-  # 被烟花炸死，优先级最高
-  FIREWORK: "%playername% 被烟花炸死了。烟花爆竹安全从你我做起！"
   # 被生物攻击后挤压，相当于触发 ENTITY_ATTACK 和 CRAMMING，即被生物砸死，优先级最高，未实现
   # HIT_BY_ENTITY: "%playername% 被 %entityname% 砸死了。"
