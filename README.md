@@ -12,7 +12,7 @@
 
 #### 下载
 
-- [GitHub Actions]()
+- [GitHub Actions](https://github.com/sotapmc/CustomDeathMessage/actions)
 - 或自行 `gradle build`
 
 ## 协议
