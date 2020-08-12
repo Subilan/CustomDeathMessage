@@ -54,8 +54,6 @@ killed-by:
 reason:
   # 被挤死
   CRAMMING: "%playername% 被挤爆了。"
-  # 被方块炸死，比如 TNT
-  BLOCK_EXPLOSION: "%playername% 爆炸了。"
   # 和别的方块接触而死，其实不一定是仙人掌
   CONTACT: "%playername% 被仙人掌扎死了。"
   # 在龙息中呆太久
@@ -82,8 +80,6 @@ reason:
   MAGIC: "%playername% 被魔法杀死了。"
   # 被药水或蜘蛛毒死，优先级比有毒生物高
   POISON: "%playername% 被毒死了。"
-  # 未知弹射物
-  PROJECTILE: "%playername% 被弹出来的什么什么玩意弄死了。"
   # 饱食度为 0
   STARVATION: "%playername% 饿死了。"
   # 卡进墙内
