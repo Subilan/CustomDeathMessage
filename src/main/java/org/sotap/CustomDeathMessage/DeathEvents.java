@@ -77,7 +77,7 @@ public final class DeathEvents implements Listener {
             } else {
                 key = lastdamageCause.getCause().toString();
             }
-            custom = Files.messages.getString("reason." + key);
+            custom = Files.messages.getString("killed-by." + key);
         } else {
             custom = Files.messages.getString("reason." + lastdamageCause.getCause().toString());
         }

@@ -35,6 +35,7 @@ killed-by:
   SKELETON: "%playername% 被骷髅射手射死了。"
   SLIME: "%playername% 被史莱姆吸入了。"
   SNOWBALL: "%playername% 居然被雪球打死了。"
+  SPECIAL_SETTINGS: "%playername% 被游戏作者害死了。"
   SPIDER: "%playername% 被蜘蛛杀死了。"
   SPLASH_POTION: "%playername% 被丢死了。"
   STRAY: "%playername% 被流浪者射死了。"
@@ -96,7 +97,5 @@ reason:
   VOID: "%playername% 掉进了虚空。他是怎么到那里的？"
   # 凋零效果致死
   WITHER: "%playername% 凋零了。"
-  # 特殊的游戏设定所导致的死亡，优先级最高
-  SPECIAL_SETTINGS: "%playername% 被游戏作者害死了。"
   # 被生物攻击后挤压，相当于触发 ENTITY_ATTACK 和 CRAMMING，即被生物砸死，优先级最高，未实现
   # HIT_BY_ENTITY: "%playername% 被 %entityname% 砸死了。"
